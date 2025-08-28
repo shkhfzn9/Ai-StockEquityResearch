@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { GoogleGenAI } from "@google/genai";
-import "./GeminiChat.css";
+import "./gem.css";
 import { systemPrompt } from "../utils/geminiPrompt";
 
 const GeminiChat = ({ ticker, incomeData, balanceData, cashFlowData }) => {
